@@ -18,7 +18,7 @@ REQUISITOS FUNCIONAIS
 
 • RF003 - Dicas de resolução para as questões
 
-• RF004 - Sistema de pontuação tipo (score)
+• RF004 - Sistema de pontuação tipo (XP)
 
 2ª VA
 

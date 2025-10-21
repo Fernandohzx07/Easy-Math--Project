@@ -1,0 +1,361 @@
+[
+  {
+    "nivel": "facil",
+    "pergunta": "Quanto é 5 + 3?",
+    "opcoes": [
+      "7",
+      "8",
+      "9",
+      "6"
+    ],
+    "resposta_correta": "8",
+    "dica": "Comece com 5 e conte mais 3 números para frente."
+  },
+  {
+    "nivel": "facil",
+    "pergunta": "Quanto é 9 - 4?",
+    "opcoes": [
+      "5",
+      "6",
+      "4",
+      "13"
+    ],
+    "resposta_correta": "5",
+    "dica": "Se você tem 9 balas e come 4, quantas sobram?"
+  },
+  {
+    "nivel": "facil",
+    "pergunta": "Quanto é 2 x 3?",
+    "opcoes": [
+      "5",
+      "4",
+      "6",
+      "8"
+    ],
+    "resposta_correta": "6",
+    "dica": "É o mesmo que somar o número 2 três vezes (2+2+2)."
+  },
+  {
+    "nivel": "facil",
+    "pergunta": "Quanto é 8 ÷ 2?",
+    "opcoes": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "resposta_correta": "4",
+    "dica": "Quantas vezes o número 2 cabe dentro do número 8?"
+  },
+  {
+    "nivel": "facil",
+    "pergunta": "Quanto é 7 + 2?",
+    "opcoes": [
+      "8",
+      "10",
+      "9",
+      "5"
+    ],
+    "resposta_correta": "9",
+    "dica": "Use os dedos para contar se precisar de ajuda!"
+  },
+  {
+    "nivel": "facil",
+    "pergunta": "Quanto é 10 - 6?",
+    "opcoes": [
+      "3",
+      "5",
+      "2",
+      "4"
+    ],
+    "resposta_correta": "4",
+    "dica": "Tente contar de 6 até chegar em 10. Quantos números você contou?"
+  },
+  {
+    "nivel": "facil",
+    "pergunta": "Quanto é 5 x 2?",
+    "opcoes": [
+      "10",
+      "7",
+      "12",
+      "9"
+    ],
+    "resposta_correta": "10",
+    "dica": "É o mesmo que somar 5 duas vezes (5+5)."
+  },
+  {
+    "nivel": "facil",
+    "pergunta": "Quanto é 6 ÷ 3?",
+    "opcoes": [
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    "resposta_correta": "2",
+    "dica": "Se você dividir 6 lápis para 3 amigos, quantos lápis cada um ganha?"
+  },
+  {
+    "nivel": "facil",
+    "pergunta": "Quanto é 4 + 4?",
+    "opcoes": [
+      "7",
+      "9",
+      "8",
+      "10"
+    ],
+    "resposta_correta": "8",
+    "dica": "É o dobro de 4!"
+  },
+  {
+    "nivel": "facil",
+    "pergunta": "Quanto é 8 - 1?",
+    "opcoes": [
+      "9",
+      "6",
+      "5",
+      "7"
+    ],
+    "resposta_correta": "7",
+    "dica": "Qual número vem logo antes do 8?"
+  },
+  {
+    "nivel": "medio",
+    "pergunta": "Quanto é 7 x 8?",
+    "opcoes": [
+      "54",
+      "56",
+      "63",
+      "49"
+    ],
+    "resposta_correta": "56",
+    "dica": "Pense em 7 x 7 e adicione mais 7."
+  },
+  {
+    "nivel": "medio",
+    "pergunta": "Quanto é 2 elevado a 3ª potência (2³)?",
+    "opcoes": [
+      "6",
+      "5",
+      "8",
+      "9"
+    ],
+    "resposta_correta": "8",
+    "dica": "É o mesmo que 2 multiplicado por ele mesmo 3 vezes (2x2x2)."
+  },
+  {
+    "nivel": "medio",
+    "pergunta": "Quanto é 9 x 6?",
+    "opcoes": [
+      "54",
+      "56",
+      "48",
+      "63"
+    ],
+    "resposta_correta": "54",
+    "dica": "Uma forma fácil é fazer 10 x 6 e depois tirar 6."
+  },
+  {
+    "nivel": "medio",
+    "pergunta": "Quanto é 3 elevado a 2ª potência (3²)?",
+    "opcoes": [
+      "6",
+      "9",
+      "8",
+      "12"
+    ],
+    "resposta_correta": "9",
+    "dica": "Também conhecido como 'três ao quadrado', é 3 x 3."
+  },
+  {
+    "nivel": "medio",
+    "pergunta": "Quanto é 12 x 4?",
+    "opcoes": [
+      "42",
+      "36",
+      "48",
+      "52"
+    ],
+    "resposta_correta": "48",
+    "dica": "Você pode fazer 10 x 4 e depois somar 2 x 4."
+  },
+  {
+    "nivel": "medio",
+    "pergunta": "Quanto é 5 elevado a 2ª potência (5²)?",
+    "opcoes": [
+      "10",
+      "20",
+      "25",
+      "15"
+    ],
+    "resposta_correta": "25",
+    "dica": "Multiplique o 5 por ele mesmo."
+  },
+  {
+    "nivel": "medio",
+    "pergunta": "Quanto é 6 x 8?",
+    "opcoes": [
+      "42",
+      "48",
+      "54",
+      "45"
+    ],
+    "resposta_correta": "48",
+    "dica": "Tente se lembrar da tabuada do 6 ou do 8."
+  },
+  {
+    "nivel": "medio",
+    "pergunta": "Quanto é 4 elevado a 3ª potência (4³)?",
+    "opcoes": [
+      "12",
+      "16",
+      "32",
+      "64"
+    ],
+    "resposta_correta": "64",
+    "dica": "É 4 x 4, e o resultado disso vezes 4 de novo."
+  },
+  {
+    "nivel": "medio",
+    "pergunta": "Quanto é 15 x 3?",
+    "opcoes": [
+      "35",
+      "45",
+      "55",
+      "30"
+    ],
+    "resposta_correta": "45",
+    "dica": "Some o número 15 três vezes."
+  },
+  {
+    "nivel": "medio",
+    "pergunta": "Quanto é 10 elevado a 2ª potência (10²)?",
+    "opcoes": [
+      "20",
+      "100",
+      "1000",
+      "10"
+    ],
+    "resposta_correta": "100",
+    "dica": "É o número 1 seguido de dois zeros."
+  },{
+    "nivel": "dificil",
+    "pergunta": "Qual a raiz quadrada de 81?",
+    "opcoes": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "resposta_correta": "9",
+    "dica": "Qual número, multiplicado por ele mesmo, resulta em 81?"
+  },
+  {
+    "nivel": "dificil",
+    "pergunta": "Em um triângulo retângulo, qual o nome do lado maior, oposto ao ângulo de 90°?",
+    "opcoes": [
+      "Cateto Adjacente",
+      "Cateto Oposto",
+      "Vértice",
+      "Hipotenusa"
+    ],
+    "resposta_correta": "Hipotenusa",
+    "dica": "É a parte mais importante do Teorema de Pitágoras."
+  },
+  {
+    "nivel": "dificil",
+    "pergunta": "Quanto é 5 elevado a potência 0 (5⁰)?",
+    "opcoes": [
+      "0",
+      "1",
+      "5",
+      "Infinito"
+    ],
+    "resposta_correta": "1",
+    "dica": "Todo número (diferente de zero) elevado a zero tem um resultado padrão."
+  },
+  {
+    "nivel": "dificil",
+    "pergunta": "Quanto vale o Seno de 30°?",
+    "opcoes": [
+      "1",
+      "0.5",
+      "0.86",
+      "0.75"
+    ],
+    "resposta_correta": "0.5",
+    "dica": "É um dos ângulos notáveis mais famosos. O valor é exatamente a metade de 1."
+  },
+  {
+    "nivel": "dificil",
+    "pergunta": "Quanto é (2³)², ou seja, 2 elevado ao cubo, e o resultado elevado ao quadrado?",
+    "opcoes": [
+      "12",
+      "16",
+      "32",
+      "64"
+    ],
+    "resposta_correta": "64",
+    "dica": "Resolva primeiro o que está dentro dos parênteses (2x2x2) e depois eleve o resultado ao quadrado."
+  },
+  {
+    "nivel": "dificil",
+    "pergunta": "Qual a raiz quadrada de 144?",
+    "opcoes": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "resposta_correta": "12",
+    "dica": "Pense na tabuada! É um número que aparece bastante em 'dúzias'."
+  },
+  {
+    "nivel": "dificil",
+    "pergunta": "Quanto vale a Tangente de 45°?",
+    "opcoes": [
+      "0",
+      "0.5",
+      "1",
+      "2"
+    ],
+    "resposta_correta": "1",
+    "dica": "Em um triângulo com esse ângulo, os dois catetos têm o mesmo tamanho. A divisão de um pelo outro dá...?"
+  },
+  {
+    "nivel": "dificil",
+    "pergunta": "Se os dois lados menores (catetos) de um triângulo retângulo medem 3cm e 4cm, quanto mede o lado maior (hipotenusa)?",
+    "opcoes": [
+      "5cm",
+      "6cm",
+      "7cm",
+      "8cm"
+    ],
+    "resposta_correta": "5cm",
+    "dica": "Use o Teorema de Pitágoras: a² + b² = c². Ou seja, 3² + 4² = ?"
+  },
+  {
+    "nivel": "dificil",
+    "pergunta": "Qual o valor da expressão 50 + 10 x 2?",
+    "opcoes": [
+      "120",
+      "62",
+      "70",
+      "52"
+    ],
+    "resposta_correta": "70",
+    "dica": "Lembre-se da ordem das operações! A multiplicação vem antes da soma."
+  },
+  {
+    "nivel": "dificil",
+    "pergunta": "Qual a raiz quadrada de 49 somada com 3²?",
+    "opcoes": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "resposta_correta": "16",
+    "dica": "Resolva cada parte separadamente primeiro. Qual a raiz de 49? E quanto é 3x3? Depois some os resultados."
+  }
+  ]
