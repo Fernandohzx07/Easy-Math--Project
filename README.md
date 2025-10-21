@@ -1,4 +1,4 @@
-EASY MATH Project 🎮
+(EASY MATH Project) 🎮
 
 Repositório EASY MATH - Projeto de Software Interdisciplinar
 
