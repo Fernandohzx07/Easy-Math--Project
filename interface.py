@@ -2,14 +2,17 @@ import os
 import time
 from config import *
 
+
 def limpar_tela():
-    """Limpa a tela do terminal."""
+    # ...(sem mudanças)...
     os.system('cls' if os.name == 'nt' else 'clear')
 
+
 def exibir_abertura():
-    """Exibe a abertura animada do jogo."""
+    # ...(sem mudanças)...
     limpar_tela()
-    boot_messages = ["Inicializando sistema Easy Math...", "Carregando Módulo de Gamificação...", "Verificando Banco de Questões...", "Tudo pronto!"]
+    boot_messages = ["Inicializando sistema Easy Math...", "Carregando Módulo de Gamificação...",
+                     "Verificando Banco de Questões...", "Tudo pronto!"]
     for msg in boot_messages:
         print(f"{COR_LETRA_AVISO}{msg}")
         time.sleep(0.7)
@@ -34,8 +37,9 @@ def exibir_abertura():
         time.sleep(0.3)
     print("\n\n")
 
+
 def exibir_menu_principal():
-    """Exibe o menu principal e retorna a escolha do jogador."""
+    # ...(sem mudanças)...
     limpar_tela()
     print(f"{FUNDO_BLOCO_INFO}{' ' * 30}")
     print(f"{FUNDO_BLOCO_INFO}  {COR_LETRA_TITULO}EASY MATH - MENU PRINCIPAL{Style.RESET_ALL}{FUNDO_BLOCO_INFO}  ")
@@ -46,8 +50,9 @@ def exibir_menu_principal():
     escolha = input(f"\n{COR_LETRA_INPUT}>> Digite sua escolha: ")
     return escolha
 
+
 def ler_ultima_pontuacao():
-    """Lê e exibe a última pontuação. Se não houver, oferece um novo jogo."""
+    """Lê a pontuação. Se não houver, oferece um mini-menu BLINDADO."""
     limpar_tela()
     try:
         with open(ARQUIVO_PONTUACAO, 'r') as f:
@@ -59,9 +64,16 @@ def ler_ultima_pontuacao():
             input(f"{COR_LETRA_AVISO}Pressione Enter para voltar ao menu...")
             return None
     except FileNotFoundError:
-        ### A CORREÇÃO ESTÁ AQUI! ###
-        print(f"{COR_LETRA_AVISO}Você ainda não tem nenhuma pontuação registrada. Hora de jogar!\n")
-        print(f"{COR_LETRA_ALTERNATIVA_DESTAQUE}1){Style.RESET_ALL} Iniciar um novo desafio agora!")
-        print(f"{COR_LETRA_ALTERNATIVA_DESTAQUE}2){Style.RESET_ALL} Voltar ao menu principal")
-        escolha = input(f"\n{COR_LETRA_INPUT}>> O que você quer fazer? ")
-        return escolha
+        # ### BLINDAGEM DO MINI-MENU ###
+        while True:
+            limpar_tela()  # Limpa a tela a cada tentativa
+            print(f"{COR_LETRA_AVISO}Você ainda não tem nenhuma pontuação registrada. Hora de jogar!\n")
+            print(f"{COR_LETRA_ALTERNATIVA_DESTAQUE}1){Style.RESET_ALL} Iniciar um novo desafio agora!")
+            print(f"{COR_LETRA_ALTERNATIVA_DESTAQUE}2){Style.RESET_ALL} Voltar ao menu principal")
+            escolha = input(f"\n{COR_LETRA_INPUT}>> O que você quer fazer? ")
+
+            if escolha in ['1', '2']:
+                return escolha  # Só retorna se a escolha for válida
+            else:
+                print(f"\n{COR_ERRO_TEXTO}Opa! Opção inválida. Digite 1 ou 2.")
+                time.sleep(2)  # Pausa para o jogador ler a mensagem

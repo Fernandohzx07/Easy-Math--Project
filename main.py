@@ -22,19 +22,13 @@ def main():
         escolha = exibir_menu_principal()
 
         if escolha == '1':
-            # Inicia o jogo normalmente
             iniciar_jornada(banco_de_perguntas)
-            # Após o fim, espera o jogador e volta para o loop do menu
             input(f"\n{COR_LETRA_AVISO}Jornada finalizada! Pressione Enter para voltar ao menu...")
 
         elif escolha == '2':
-            # Chama a função e pega a escolha do jogador (se houver)
             escolha_secundaria = ler_ultima_pontuacao()
-
-            # Se a escolha foi iniciar o jogo a partir do "Hall da Fama" vazio
             if escolha_secundaria == '1':
                 iniciar_jornada(banco_de_perguntas)
-                # Após o fim, espera o jogador e volta para o loop do menu
                 input(f"\n{COR_LETRA_AVISO}Jornada finalizada! Pressione Enter para voltar ao menu...")
 
         elif escolha == '3':
@@ -44,7 +38,8 @@ def main():
             break
 
         else:
-            print(f"\n{COR_ERRO_TEXTO}Opção inválida! Tente novamente.")
+            # AGORA ESTA LINHA VAI FUNCIONAR PERFEITAMENTE!
+            print(f"\n{COR_ERRO_TEXTO}Opção inválida! Por favor, digite 1, 2 ou 3.")
             time.sleep(2)
 
 
