@@ -1,4 +1,4 @@
-EASY MATH Project 🎮
+(EASY MATH Project) 🎮
 
 Repositório EASY MATH - Projeto de Software Interdisciplinar
 
@@ -16,7 +16,7 @@ REQUISITOS FUNCIONAIS
 
 • RF002 - Diferentes níveis de dificuldade nas questões
 
-• RF003 - Dicas de resolução para as questões
+• RF003 - POWER-UP DE AJUDA (50/50)
 
 • RF004 - Sistema de pontuação tipo (XP)
 
@@ -27,3 +27,5 @@ REQUISITOS FUNCIONAIS
 • RF006 - Desafios finais para níveis avançados
 
 • RF007 - Correções de bugs e futuros problemas
+
+• RF008 - Dicas das questões para resolução do problema
