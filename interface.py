@@ -39,7 +39,7 @@ def exibir_abertura():
 
 
 def exibir_menu_principal():
-    # ...(sem mudanças)...
+
     limpar_tela()
     print(f"{FUNDO_BLOCO_INFO}{' ' * 30}")
     print(f"{FUNDO_BLOCO_INFO}  {COR_LETRA_TITULO}EASY MATH - MENU PRINCIPAL{Style.RESET_ALL}{FUNDO_BLOCO_INFO}  ")

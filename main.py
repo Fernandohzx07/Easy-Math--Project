@@ -38,7 +38,6 @@ def main():
             break
 
         else:
-            # AGORA ESTA LINHA VAI FUNCIONAR PERFEITAMENTE!
             print(f"\n{COR_ERRO_TEXTO}Opção inválida! Por favor, digite 1, 2 ou 3.")
             time.sleep(2)
 
