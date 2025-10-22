@@ -1,13 +1,18 @@
 ## (EASY MATH Project) 🎮
 
+![IMG_4986.HEIC](../../../Downloads/IMG_4986.HEIC)
+
 ## Repositório EASY MATH - Projeto de Software Interdisciplinar
 
 Desenvolvedores: Davi Fernando e Ismael Barros
 
 Docente Responsável: Cleyton Magalhães
 
-O Easy Math é um game educativo e interativo, projetado para auxiliar crianças com dificuldades no aprendizado de matemática. O objetivo é transformar o estudo em uma experiência envolvente e divertida, prendendo a atenção dos pequenos através de um modelo de jogo de 1 pergunta com 4 alternativas.
+O Easy Math é um game educativo e interativo, projetado para auxiliar crianças com dificuldades no aprendizado de matemática.
+O objetivo é transformar o estudo em uma experiência envolvente e divertida, 
+prendendo a atenção dos pequenos através de um modelo de jogo de 1 pergunta com 4 alternativas.
 O projeto busca fortalecer o conhecimento matemático básico das crianças, fornecendo uma plataforma dinâmica que se adapta ao ritmo de cada uma.
+
 REQUISITOS FUNCIONAIS
 
 ## 1ª VA
@@ -29,6 +34,7 @@ REQUISITOS FUNCIONAIS
 • RF007 - Correções de bugs e futuros problemas
 
 • RF008 - Dicas das questões para resolução do problema
+
 
 ## ENTREGAS 
 
