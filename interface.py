@@ -2,12 +2,15 @@ import os
 import time
 from config import *
 
-
+# verifica sistema operacional e decide como comando clear vai ser usado
 def limpar_tela():
     # ...(sem mudanças)...
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
+
+
+ # simulação de processo de carregamento e  inicialização // formata texto, dá espaço e tempo utilizando o timesleep()  
 def exibir_abertura():
     # ...(sem mudanças)...
     limpar_tela()
@@ -38,6 +41,9 @@ def exibir_abertura():
     print("\n\n")
 
 
+
+
+# Menu de escolhas// oque vai ser printado  inicialmente no terminal esta aqui limpar_tela()
 def exibir_menu_principal():
 
     limpar_tela()
@@ -50,6 +56,8 @@ def exibir_menu_principal():
     escolha = input(f"\n{COR_LETRA_INPUT}>> Digite sua escolha: ")
     return escolha
 
+
+# Aqui é tratado dois fluxos um quando há uma pontuação e outro quando não há pontuação anterior// ao final tem um if pra tratar erros de digitação
 
 def ler_ultima_pontuacao():
     """Lê a pontuação. Se não houver, oferece um mini-menu BLINDADO."""
@@ -71,6 +79,7 @@ def ler_ultima_pontuacao():
             print(f"{COR_LETRA_ALTERNATIVA_DESTAQUE}1){Style.RESET_ALL} Iniciar um novo desafio agora!")
             print(f"{COR_LETRA_ALTERNATIVA_DESTAQUE}2){Style.RESET_ALL} Voltar ao menu principal")
             escolha = input(f"\n{COR_LETRA_INPUT}>> O que você quer fazer? ")
+
 
             if escolha in ['1', '2']:
                 return escolha  # Só retorna se a escolha for válida
