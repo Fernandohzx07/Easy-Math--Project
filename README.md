@@ -17,23 +17,27 @@ REQUISITOS FUNCIONAIS
 
 ## 1ª VA
 
-• RF001 - Sistema de questões e respostas personalizadas
+• RF001 - Menu Principal 
 
-• RF002 - Diferentes níveis de dificuldade nas questões
+• RF002 - Menu alternativo
 
-• RF003 - POWER-UP DE AJUDA (50/50)
+• RF003 - Sistema de questões e respostas personalizadas
 
-• RF004 - Sistema de pontuação tipo (XP)
+• RF004 - Diferentes níveis de dificuldade nas questões
+
+• RF005 - POWER-UP DE AJUDA (50/50)
+
+• RF006 - Sistema de pontuação tipo (XP)
 
 ## 2ª VA
 
-• RF005 - Implementação de interface gráfica
+• RF007 - Implementação de interface gráfica
 
-• RF006 - Desafios finais para níveis avançados
+• RF008 - Desafios finais para níveis avançados
 
-• RF007 - Correções de bugs e futuros problemas
+• RF009 - Correções de bugs e futuros problemas
 
-• RF008 - Dicas das questões para resolução do problema
+• RF010 - Dicas das questões para resolução do problema
 
 
 ## ENTREGAS 
