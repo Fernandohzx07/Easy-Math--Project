@@ -1,7 +1,5 @@
 ## (EASY MATH Project) 🎮
 
-![IMG_4986.HEIC]
-
 ## Repositório EASY MATH - Projeto de Software Interdisciplinar
 
 Desenvolvedores: Davi Fernando e Ismael Barros
