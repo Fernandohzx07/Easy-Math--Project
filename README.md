@@ -1,6 +1,6 @@
 ## (EASY MATH Project) 🎮
 
-![IMG_4986.HEIC](../../../Downloads/IMG_4986.HEIC)
+![IMG_4986.HEIC]
 
 ## Repositório EASY MATH - Projeto de Software Interdisciplinar
 
@@ -15,7 +15,7 @@ O projeto busca fortalecer o conhecimento matemático básico das crianças, for
 
 REQUISITOS FUNCIONAIS
 
-## 1ª VA
+## 1ª Release
 
 • RF001 - Menu Principal 
 
@@ -29,7 +29,7 @@ REQUISITOS FUNCIONAIS
 
 • RF006 - Sistema de pontuação tipo (XP)
 
-## 2ª VA
+## 2ª Release
 
 • RF007 - Implementação de interface gráfica
 
