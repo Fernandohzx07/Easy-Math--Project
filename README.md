@@ -35,7 +35,7 @@ REQUISITOS FUNCIONAIS
 
 • RF009 - Correções de bugs e futuros problemas
 
-• RF010 - Dicas das questões para resolução do problema
+• RF010 - premiações estratégicas em forma de ícone ao terminar o jogo
 
 
 ## ENTREGAS 
