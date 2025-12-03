@@ -1,4 +1,4 @@
-# Easy Math - Final Edition 🎮
+# Easy Math - 🎮
 
 > **Projeto de Software Interdisciplinar - UFRPE**
 
