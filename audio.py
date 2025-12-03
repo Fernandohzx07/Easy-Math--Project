@@ -1,35 +1,34 @@
+# audio.py
+import os
 import threading
 import time
 from playsound import playsound
 
-# Uma "bandeira" para controlar a música de fundo
-musica_de_fundo_tocando = True
+class DJ:
+    def __init__(self):
+        self.musica_ativa = True
 
+    def iniciar_musica_fundo(self):
+        self.musica_ativa = True
+        def _loop():
+            while self.musica_ativa:
+                try:
+                    base = os.getcwd()
+                    mp3 = os.path.join(base, "sons", "base.mp3")
+                    if os.path.exists(mp3): playsound(mp3)
+                    else: break
+                except: time.sleep(1)
+        threading.Thread(target=_loop, daemon=True).start()
 
-def tocar_musica_base():
-    """Toca a música de fundo em um loop infinito, enquanto a flag permitir."""
-    while musica_de_fundo_tocando:
-        try:
-            playsound('sons/base.mp3')
-        except:
+    def parar_musica(self):
+        self.musica_ativa = False
+
+    def tocar_sfx(self, nome):
+        def _play():
             try:
-                playsound('sons/base.wav')
-            except:
-                time.sleep(1)
-
-
-def tocar_efeito_sonoro(nome_do_arquivo):
-    """Toca um efeito sonoro curto em uma thread separada."""
-    caminho_mp3 = f'sons/{nome_do_arquivo}.mp3'
-    caminho_wav = f'sons/{nome_do_arquivo}.wav'
-
-    def tocar():
-        try:
-            playsound(caminho_mp3)
-        except:
-            try:
-                playsound(caminho_wav)
-            except:
-                pass
-
-    threading.Thread(target=tocar, daemon=True).start()
+                base = os.getcwd()
+                caminho = os.path.join(base, "sons", f"{nome}.mp3")
+                if os.path.exists(caminho): playsound(caminho)
+                else: playsound(os.path.join(base, "sons", f"{nome}.wav"))
+            except: pass
+        threading.Thread(target=_play, daemon=True).start()
